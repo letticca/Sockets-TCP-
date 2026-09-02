@@ -12,6 +12,7 @@ Este projeto implementa uma aplicação cliente-servidor em Go utilizando socket
 O cliente envia comandos em texto estruturado separados por espaços, seguindo o formato: `COMANDO <num1> <num2>`
 
 |  Comando |  Descrição | Exemplo de Uso |
+| :--- | :--- | :--- |
 |  `SOMA` | Soma dois números inteiros | `SOMA 10 5` |
 |  `SUB` | Subtrai o segundo número do primeiro | `SUB 10 5` |
 |  `MUL` | Multiplica dois números inteiros | `MUL 10 5` |
