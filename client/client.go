@@ -48,10 +48,9 @@ func main() {
 		}
 
 		fmt.Printf("Echo recebido do servidor (%d bytes): %s", n, string(buf[:n]))
-		if strings.ToLower(input) == "sair" {
+		if strings.ToLower(strings.TrimSpace(input)) == "sair" {
 			fmt.Println("Encerrando o programa...")
 			return
-			//break
 		}
 	}
 
